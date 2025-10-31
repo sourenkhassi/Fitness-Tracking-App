@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  /* Use Vazirmatn (Persian) with fallbacks */
+  font-family: 'Vazirmatn', 'Segoe UI', Tahoma, 'Helvetica Neue', Arial, sans-serif;
+  direction: rtl;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root{
+  /* Fresh Emerald palette (fit & healthy feel) */
+  --primary: #10b981; /* emerald */
+  --primary-dark: #0f9d74;
+  --accent: #f59e0b; /* warm accent */
+  --surface: #ffffff;
+  --muted: #666666;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
